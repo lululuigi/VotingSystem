@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+#title{
+    text-align: center;
+}
+
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#message_box{
+    border: 1px solid;
+    padding: 5px;
+}

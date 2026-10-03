@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="view/styles/register.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Brainrot School Voting System</h1>
+    <div id="registerform">
+        <input type="hidden" id="id">
+        <label>StudentID</label>
+        <input type="text" id="studentid" placeholder="StudentID" minlength="10" maxlength="10" inputmode="numeric">
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Email">
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Username">   
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Min 8. characters"> 
+        <label>Confirm password</label>
+        <input type="password" id="confirmpassword" placeholder="Repeat password">
+        <button type="button" id="registerBtn">Register</button>
+        <p id="hint"></p> 
+    </div>
+
+    <script src="auth.js"></script>
+</body>
+</html>
